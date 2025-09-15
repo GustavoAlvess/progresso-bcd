@@ -17,3 +17,8 @@ VALUES('Thales Roberto', 'Artista Solo', 1, 'Gospel, Soul, Pop', 'Brasil', 2003,
 VALUES('Morada', 'Banda', 4, 'Gospel, Rock Alternativo', 'Brasil', 2009, 'É Tudo Sobre Você', TRUE),
 
 VALUES ('Bruno Mars', 'Artista Solo', 1, 'Pop, R&B, Funk, Soul', 'Estados Unidos', 2004, 'Uptown Funk', TRUE);
+
+
+SELECT * FROM artistas;
+
+SELECT COUNT(*) AS total_artistas FROM artistas
