@@ -1,3 +1,7 @@
 SELECT * FROM artistas;
 
 SELECT COUNT(*) AS total_artistas FROM artistas
+
+SELECT NOME, MUSICA_MAIS_OUVIDA  FROM ARTISTAS
+WHERE PAIS_ORIGEM = 'Brasil'
+WHERE ID = 3
