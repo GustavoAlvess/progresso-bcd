@@ -23,5 +23,11 @@ CREATE TABLE usuários (
     DATA_CADASTRO DATE
 );
 
-
+INSERT INTO produtos ( nome, marca, preco, categoria , estoque)
+VALUES
+( 'gloss', 'franciny', 57.60, 'para lábios', 800),
+( 'Base e Corretivo Matte Mari Maria Velvet Skin', 'MARIMARIAMAKE', 55.15, 'para pele', 250),
+( 'Stick Cor Multifuncional', 'Boca Rosa', 51.88, 'para lábios', 400),
+( 'Sombra Water ', 'KIKO MILANO', 79.90, 'para olhos', 764),
+( 'Corretivo ', 'RUBY KISSES',34.10, 'para pele', 962);
     ``` 
